@@ -1,0 +1,23 @@
+div#container {
+    width: 1220px;
+    margin: auto;
+}
+
+div#topNav {
+    height: 25px;
+    background-color: #D3D3D3;
+    font-size: 12px;
+    word-spacing: 12px;
+    display: inline;
+    float: inherit;
+
+}
+
+
+div#topNav div#help{
+    float: right; 
+    display: inline;
+    height:25px;
+    font-size: 12px;
+    background-color: #D3D3D3;
+}
