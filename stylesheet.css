@@ -26,13 +26,12 @@ div#topNav {
     margin-left: 5px;
     font-size: 12px;
     word-spacing: 12px;
-    display: inline;
+    float: left;
 }
 
 div#help{
     font-size: 12px;
     float: right; 
-    display: inline;
     margin-right: 25px;
     padding-top: 2px;
 
@@ -40,38 +39,59 @@ div#help{
 
 #mainContent {
     background-color: white;
+    overflow: hidden;
+
+
 }
 
-h2.left {
-    color: #8AC007;
-    background-color: #FFF;
-    font-size: 14px;
+h2.contentListTitle {
     margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: normal;
 }
 
-#leftcolumn{
+div#leftColumn{
     padding-bottom: 4px;
-    display: inline;
+    float: left;
+    width: 170px;
 }
 
-#centerContent{
-    display: inline;
+div#centerContent{
+    width: 822px;
+    float: left;
+    padding: 0px 7px 7px;
+    overflow: hidden;
+
+}
+#chapter{
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 20px;
+    
 }
 
-#line a{
+div.box p{
+    margin-top: 0px;
+    font-size: 14px;
+}
+div.box img{
+    float: left;
+    margin-right: 20px;
+}
+#leftColumn a{
     display: block;
     color: #404040;
-    font-family: verdana,helvetica,arial,sans-serif;
-    font-weight: 700;
     word-spacing: 2px;
     font-size: 13px;
 }
-
-span.h1 {
-    color: #8AC007;
+a:nth-child(2) {
+    float:right;
 }
-#container{
-    margin-left: 250px;
+.greenText {
+    color: #8AC007;
+
 }
 
 hr{
@@ -80,21 +100,6 @@ hr{
     height: 1px;
     border: 0px none;
     clear: both;
-}
-
-#chapter{
-    width: 48%;
-    float: left;
-    color:#8Ac007;
-    font-size: 17px;
-}
-
-#next{
-    text-align: right;
-    font-size: 17px;
-    width: 48%;
-    color: #8AC007;
-    float: right;
 }
 
 body{
